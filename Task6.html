@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Task6.css" />
+  </head>
+  <body>
+    <!-- Phần 1: Sử dụng inline-style -->
+    <h1
+      style="
+        color: yellow;
+        text-align: justify;
+        width: 930px;
+        font-family: sans-serif;
+      "
+    >
+      What is CSS?
+    </h1>
+
+    <!-- Phần 2: Sử dụng internal-style -->
+    <style>
+      .doan-van-2 {
+        color: blue;
+        text-align: justify;
+        font-family: sans-serif;
+        width: 910px;
+      }
+    </style>
+    <p class="doan-van-2">
+      Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+    </p>
+
+    <!-- Phần 3: Sử dụng external-style -->
+    <p class="doan-van-3">
+      With CSS, you can control the color, font, the size of text, the spacing
+      between elements, how elements are positioned and laid out, what
+      background images or background colors are to be used, different displays
+      for different devices and screen sizes, and much more!
+    </p>
+    <div>
+      <p
+        style="
+          color: black;
+          text-align: justify;
+          width: 910px;
+          background-color: rgb(255, 255, 204);
+          font-family: sans-serif;
+        "
+      >
+        <b>Tip:</b> The word <b>cascading</b> means that a style applied to a
+        parent element will also apply to all children elements within the
+        parent. So, if you set the color of the body text to "blue", all
+        headings, paragraphs, and other text elements within the body will also
+        get the same color (unless you specify something else)!
+      </p>
+    </div>
+  </body>
+</html>

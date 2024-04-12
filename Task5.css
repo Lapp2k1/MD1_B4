@@ -1,0 +1,21 @@
+.title {
+  font-size: 32px;
+  line-height: 150%;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.p {
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+  margin-bottom: 15px;
+
+  font-family: "Arial", serif;
+
+  text-align: justify;
+  width: 930px;
+}
+body {
+  background-color: #e5e5e5;
+}

@@ -1,0 +1,41 @@
+
+main {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ a {
+     display: block;
+     text-align: left;
+     margin-top: 10px;
+     margin-left: 10px;
+ }
+ main {
+     width: 50%;
+     margin: 0 auto;
+     margin-left: 10px;
+ }
+ ul {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0;
+     justify-content: space-between;
+ }
+ li {
+     list-style-type: none;
+     width: 48%;
+     margin-bottom: 20px;
+ }
+ img, b, p, button {
+     display: block;
+     width: 100%;
+ }
+ footer {
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 10px;
+ }

@@ -1,0 +1,26 @@
+*{
+    width: 500px;
+}
+.card-selection {
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.card-selection img {
+    width: 60px;
+    height: 40px;
+}
+.payment-form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.payment-form button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
