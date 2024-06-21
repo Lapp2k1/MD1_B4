@@ -6,7 +6,9 @@ main {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+     
  }
+ *{background-color: gray;}
  a {
      display: block;
      text-align: left;
@@ -26,16 +28,21 @@ main {
  }
  li {
      list-style-type: none;
-     width: 48%;
+     width: 40%;
      margin-bottom: 20px;
+     border: 10px solid white;
  }
  img, b, p, button {
      display: block;
      width: 100%;
+     
  }
+
  footer {
      background-color: black;
      color: white;
      text-align: center;
      padding: 10px;
  }
+
+footer p{background-color: black;}

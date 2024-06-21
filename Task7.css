@@ -31,13 +31,17 @@ div {
   margin: 0 8px 15px;
   font-family: 'Franklin Gothic Medium', sans-serif;
 }
+.bai1_2:focus{background-color: red;}
 .hinhnen {
-  background: url(./Shotcut_00_00_09_317.png) no-repeat left top;
+  background: url(./Shotcut_00_00_09_317.png) no-repeat left local;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   color: #fff;
   padding: 100px 0 60px;
   text-align: center;
   width: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .hinhnen .btn {
   background-color: #d83f2e;
   border: 1px;
@@ -46,6 +50,7 @@ div {
   font-size: 16px;
   opacity: 1;
   padding: 16px 14px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 a {
   text-decoration: none;

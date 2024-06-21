@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .bai7 {
+      width: 500px;
+      text-align: center;
+      margin: 20px auto;
+      border: 2px solid #e3e3e3;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    .bai7 div {
+      display: grid;
+      border-top: 2px solid #e3e3e3;
+      border-bottom: 2px solid #e3e3e3;
+    }
+    .bai7 p {
+      padding: 10px;
+    }
+    b,
+    button {
+      margin: 10px;
+    }
+    b {
+      font-size: large;
+    }
+    .bai7 .p1 {
+      background-color: #f7f7f7;
+    }
+    .bai7 p:nth-child(3) {
+      color: gray;
+    }
+    button {
+      width: 200px;
+      height: 30px;
+      margin: 10px auto;
+      color: white;
+      background-color: blue;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      border-radius: 5px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      border: 1px;
+    }
+    .bai8 {
+      width: 500px;
+      margin: 20px auto;
+      text-align: left;
+      border: 2px solid #686868;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .bai8 div {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      align-items: center;
+    }
+    .bai8 > p {
+      padding: 10px;
+      border-top: 2px solid #e3e3e3;
+      border-bottom: 2px solid #e3e3e3;
+    }
+    .bai8 button {display: flex;
+      padding: 10px;
+      margin-right: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      opacity: 0.5;
+    }
+  </style>
+  <body>
+    <div class="bai7">
+      <p class="p1">Featured</p>
+      <div class="content-box">
+        <b>Special title treatment</b>
+        <p>
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+
+        <button>Go somewhere</button>
+      </div>
+
+      <p class="p1">2 days ago</p>
+    </div>
+
+    <div class="bai8">
+      <div>
+        <p>Modal 1</p>
+        <img width="20px" height="20px" src="./close.png" alt="" />
+      </div>
+      <p>Show a second modal and hide this one with the button below.</p>
+      <button>Open second modal</button>
+    </div>
+  </body>
+</html>
